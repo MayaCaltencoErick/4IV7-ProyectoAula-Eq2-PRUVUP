@@ -24,6 +24,7 @@ nav, section, footer, article, aside{
     padding: 2rem;
 }
 
+
 article, aside{
     width: 40%;
     display: inline-block;
