@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/sesion.css">
+    <title>Creacion de cuenta</title>
+    <script type="text/JavaScript"
+    src="JS/validar.js"></script>
+</head>
+<body>
+       <div class="container"><button onclick="window.location.href='index.html'" class="Boton">Página de inicio</button>
+              <button onclick="window.location.href='iniciar.html'" class="Boton">Iniciar Sesion</button>
+          </div>
+        
+    
+    
+<div>
+       <h1>Crear cuenta</h1>
+              <form name="formulario" method="post"  
+              action="Registro" onsubmit="return validar(this)">
+              
+            <label>Nombre:</label>
+            <input type="text" name="nombre"  >
+            <br>
+            <label>Apellido Paterno:</label>
+            <input type="text" name="appat"  >
+            <br>
+            <label>Apellido Materno:</label>
+            <input type="text" name="appmat"  >
+            <br>
+            <label>Fecha de nacimiento</label>
+            <input type="text" name="edad">
+            <br>
+            <label>Correo:</label>
+            <input type="email" name="email"  >
+            <br>
+            <br>
+            <label>Contraseña:</label>
+            <input type="text" name="contraseña"  >
+            <br>
+            
+            <br>
+            <input type="submit" value="Crear cuenta" class="boton">
+            
+        </form>
+         
+
+</div>              
+</body>
+</html>

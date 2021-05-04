@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/sesion.css">
+    <title>Inicio de Sesion</title>
+    <script type="text/JavaScript"
+    src="JS/validar.js"></script>
+</head>
+<body>
+    <div class="container"><button onclick="window.location.href='index.html'" class="Boton">Página de inicio</button>
+           <button onclick="window.location.href='iniciar.html'" class="Boton">Iniciar Sesion</button>
+       </div>
+     
+ 
+ 
+<div>
+    <h1>Datos de países</h1>
+           <form name="formulario" method="post"  
+           action="RegistroInformacion" onsubmit="return validardatos(this)">
+           <br>
+         
+         <br>
+         <label>Suba los datos que desea actualizar(solo archivos csv):</label>
+         <br>
+         <br>
+
+         
+         <input type="file" id="file" onchange="return validardatos()"/>
+         
+         
+         <br>
+         
+         <br>
+
+         <input type="submit" value="Subir datos" class="boton">
+         
+     </form>
+      
+<button onclick="window.location.href='index.html'" class="Boton">Regresar al menu principal</button>
+</div>              
+</body>
+</html>

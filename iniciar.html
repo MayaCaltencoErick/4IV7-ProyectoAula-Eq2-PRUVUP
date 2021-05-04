@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="CSS/sesion.css">
+    <title>Inicio de Sesion</title>
+</head>
+<body>
+       <div class="container"><button onclick="window.location.href='index.html'" class="Boton">Página de inicio</button>
+              <button onclick="window.location.href='crear.html'" class="Boton">Crear cuenta</button>
+              <button onclick="window.location.href='index.html'" class="Boton">Inicio</button>
+          </div>
+    <div>
+    <h1>Iniciar Sesion</h1>
+
+    <form name="formulario" method="post"  
+              action="Registro" onsubmit="return validar(this)">
+              
+            <label>Correo:</label>
+            <input type="email" name="email"  >
+            <br>
+            <br>
+            <label>Contraseña:</label>
+            <input type="contraseña" name="email"  >
+            <br>
+            
+            <br>
+            <input type="submit" value="Iniciar sesión" class="boton">
+            
+        </form>
+
+        <button onclick="window.location.href='datos.html'" class="Boton">Actualizar información de países</button>
+    </div>
+</body>
+</html>
